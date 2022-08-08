@@ -1,38 +1,96 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.colorffffff {
+  height: 100vh;
+  background-size: cover;
   text-align: center;
+  font-family: "Open Sans";
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.colore0e0e0 {
+  background-color: #e0e0e0;
+  height: 100vh;
+  background-size: cover;
+  text-align: center;
+  font-family: "Open Sans";
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.color6fcf97 {
+  background-color: #6fcf97;
+  height: 100vh;
+  background-size: cover;
+  text-align: center;
+  font-family: "Open Sans";
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.color56ccf2 {
+  background-color: #56ccf2;
+  height: 100vh;
+  background-size: cover;
+  text-align: center;
+  font-family: "Open Sans";
+}
+
+.colorbb6bd9 {
+  background-color: #bb6bd9;
+  height: 100vh;
+  background-size: cover;
+  text-align: center;
+  font-family: "Open Sans";
+}
+
+.heading1 {
+  margin: 20px;
+  font-weight: bold;
+}
+
+.class-container {
+  margin-bottom: 10px;
+}
+
+.button {
+  border-radius: 15px;
+  height: 80px;
+  width: 80px;
+  border-width: 3px;
+  border-color: black;
+  margin-bottom: 20px;
+}
+
+.button-1 {
+  background-color: #e0e0e0;
+}
+
+.button-2 {
+  background-color: #6fcf97;
+}
+
+.button-3 {
+  background-color: #56ccf2;
+}
+
+.button-4 {
+  background-color: #bb6bd9;
+}
+
+.para-container {
+  height: 50px;
+  background-color: #222222;
+  border-radius: 10px;
+}
+
+.bg-para {
   color: white;
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.para1 {
+  font-size: 17px;
+  margin: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.span1 {
+  color: #49a6e9;
 }
